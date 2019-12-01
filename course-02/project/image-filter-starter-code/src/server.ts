@@ -1,6 +1,8 @@
-import express from 'express';
+import express, { Router } from 'express';
 import bodyParser from 'body-parser';
 import { FilteredImageRouter } from './controllers/v0/filteredimage/routes/filteredimage.router';
+
+const router: Router = Router();
 
 (async () => {
 
